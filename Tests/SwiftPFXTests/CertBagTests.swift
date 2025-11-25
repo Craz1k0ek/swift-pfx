@@ -5,7 +5,7 @@ import Testing
 import X509
 @testable import SwiftPFX
 
-@Suite("CertBag")
+@Suite("CertBag Tests")
 struct CertBagTests {
     @Test("Check cert id")
     func checkCertId() throws {

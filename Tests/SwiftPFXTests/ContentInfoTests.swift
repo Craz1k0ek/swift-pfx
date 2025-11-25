@@ -2,7 +2,7 @@ import SwiftASN1
 import Testing
 @testable import SwiftPFX
 
-@Suite("ContentInfo")
+@Suite("ContentInfo Tests")
 struct ContentInfoTests {
     @Test("Check content type")
     func checkContentType() throws {
