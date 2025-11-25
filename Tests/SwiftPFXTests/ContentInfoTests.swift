@@ -3,7 +3,7 @@ import Testing
 @testable import SwiftPFX
 
 @Suite("ContentInfo")
-struct ContentInfoTest {
+struct ContentInfoTests {
     @Test("Check content type")
     func checkContentType() throws {
         let info = ContentInfo(data: 0)
