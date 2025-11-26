@@ -22,4 +22,3 @@ struct KeyBagTests {
         #expect(serializer.serializedBytes == Array(privateKey.pkcs8DERRepresentation))
     }
 }
-
